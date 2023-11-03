@@ -1,0 +1,60 @@
+
+.home-container {
+    text-align: center ;
+    padding: 20px;
+    width: 50%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+  }
+  
+
+  .start-learning-text {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+
+  .welcome-text {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+
+  .video-container {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+
+  .join-us-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+
+  .join-us-container p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+ 
+  .join-button {
+    background: #af7cf6; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  video {
+    max-width: 100%;
+  }

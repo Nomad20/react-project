@@ -1,0 +1,73 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4; 
+  }
+  
+  
+  .learn-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .learn-text {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .learn-image {
+    width: 40px;
+    height: 40px;
+    /*background: url('learn-icon.png') center/cover no-repeat;*/
+  }
+  
+  
+  .navigation-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-link {
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333; 
+  }
+  
+  
+  .nav-link.active {
+    background-color: #af7cf6; 
+    color: #fff; 
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  
+  .buttons-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sign-in-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #af7cf6; 
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .join-us-button {
+    background: #af7cf6; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
